@@ -47,19 +47,19 @@ Go to the settings of the copied repo, on the left sidebar under 'Code and autom
 
 # 4. Change the URL 
 
-You`ll have to change the url in several places. 
+You'll have to change the url in several places. 
   - Go to vite.config.ts and change the value of 'base'. Instead of 'vite-react-router-template' type the name of your repo.
   - Go to package.json adn change the value of 'homepage' in the same manner
   - Go to main.tsx and change the paths for react router in the same manner.
-  - 'vite-react-router-template' used to serve as the base url. Now you`ve replaced it with the name of your repo. When you use <Link> to redirect, make sure to redirect to /<YourRepoName>/ as the base
+  - 'vite-react-router-template' used to serve as the base url. Now you've replaced it with the name of your repo. When you use <Link> to redirect, make sure to redirect to /<YourRepoName>/ as the base
 
 # 5. Push to remote
 
 You`ve successfully configured all the files. Now push these changes to GitHub:
 
-`git commit -m "Initial configutation"
+`git commit -m "Initial configutation"`
 `git push origin main`
 
 The workflow is automated to deploy on `push` to the `main` branch. To check the builds, go to Actions tab, and read the info.
 
-# You`re set~!
+# You're set~!
