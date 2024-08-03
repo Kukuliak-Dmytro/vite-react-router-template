@@ -18,7 +18,7 @@ This is a React app made with the latest version of Vite. It is written in TypeS
 
 # Steps
 
-You`ll have to do some changes in order for this repo to work:
+You'll have to do some changes in order for this repo to work:
 
 # 1. Clone the repo to your machine
 
@@ -35,11 +35,11 @@ If you have Node and npm installed, type in terminal:
 `npm i`
 
 This will install all the required node packages
-If you`re not sure whether or not you have them installed, type in the terminal:
+If you're not sure whether or not you have them installed, type in the terminal:
 `node -v`
 `npm -v`
 
-As a result, you should get the versions. If you haven`t installed them yet, visit https://docs.npmjs.com/downloading-and-installing-node-js-and-npm for instructions on doing so.
+As a result, you should get the versions. If you haven't installed them yet, visit https://docs.npmjs.com/downloading-and-installing-node-js-and-npm for instructions on doing so.
 
 # 3. Grant workflow the necessary permisions
 
